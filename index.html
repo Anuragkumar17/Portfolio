@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anurag Kumar | Portfolio</title>
+    <!-- Modern web typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/gif" href="assets/favicon.png">
+
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "nZd6K7mLri3zcaSDY",
+            });
+        })();
+    </script>
+</head>
+
+<body>
+    <!-- Left Logo -->
+    <div class="logo-container">
+        <a href="#home" class="logo">
+            <span class="logo-text">Anurag Kumar.</span>
+        </a>
+    </div>
+
+    <!-- Right Navbar -->
+    <header class="navbar">
+        <div class="menu-container" id="menu-container">
+            <nav class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#achievements">Achievements</a>
+                <a href="#certificates">Certificates</a>
+            </nav>
+
+            <div class="nav-action">
+                <a href="#contact" class="contact-btn">
+                    Contact
+                </a>
+            </div>
+        </div>
+
+        <div class="burger-menu" id="burger-menu">
+            <span class="menu-text">MENU</span>
+            <div class="bars">
+                <span class="bar"></span>
+                <span class="bar short"></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <!-- Background Strips -->
+            <div class="strip strip-white">
+                <div class="marquee-v">
+                    <div class="marquee-content">
+                        <span>SCIKIT-LEARN <i class="dot"></i> TENSORFLOW <i class="dot"></i> KERAS <i class="dot"></i>
+                            PANDAS <i class="dot"></i> NUMPY <i class="dot"></i> FLASK <i class="dot"></i> API
+                            INTEGRATION <i class="dot"></i> GITHUB <i class="dot"></i> JUPYTER <i
+                                class="dot"></i></span>
+                        <span>SCIKIT-LEARN <i class="dot"></i> TENSORFLOW <i class="dot"></i> KERAS <i class="dot"></i>
+                            PANDAS <i class="dot"></i> NUMPY <i class="dot"></i> FLASK <i class="dot"></i> API
+                            INTEGRATION <i class="dot"></i> GITHUB <i class="dot"></i> JUPYTER <i
+                                class="dot"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="strip strip-black">
+                <div class="marquee-h">
+                    <div class="marquee-content">
+                        <span>DATA STRUCTURES <i class="dot"></i> ALGORITHMS <i class="dot"></i> PROBLEM SOLVING <i
+                                class="dot"></i> MACHINE LEARNING <i class="dot"></i> ARTIFICIAL INTELLIGENCE <i
+                                class="dot"></i> SOFTWARE DEVELOPMENT <i class="dot"></i> C++ <i class="dot"></i> PYTHON
+                            <i class="dot"></i> JAVA <i class="dot"></i></span>
+                        <span>DATA STRUCTURES <i class="dot"></i> ALGORITHMS <i class="dot"></i> PROBLEM SOLVING <i
+                                class="dot"></i> MACHINE LEARNING <i class="dot"></i> ARTIFICIAL INTELLIGENCE <i
+                                class="dot"></i> SOFTWARE DEVELOPMENT <i class="dot"></i> C++ <i class="dot"></i> PYTHON
+                            <i class="dot"></i> JAVA <i class="dot"></i></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img src="assets/anurag.png" alt="Anurag Kumar">
+            </div>
+
+            <div class="hero-content">
+                <h2 class="role">Developer Portfolio <span class="status-indicator"><span
+                            class="dot-online pulse"></span> Online.</span></h2>
+                <h1>Hi, I'm Anurag Kumar</h1>
+                <p class="description">a software developer with a strong interest in building
+                    practical and efficient solutions. I enjoy working with different technologies and continuously
+                    improving my problem-solving skills. With a solid foundation in programming and software
+                    development, I like exploring new tools and frameworks. I am always eager to learn, grow, and take
+                    on new challenges.</p>
+
+                <div class="hero-buttons">
+                    <a href="https://github.com/Anuragkumar17" target="_blank" rel="noopener noreferrer"
+                        class="btn btn-github">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.379.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48A10.001 10.001 0 0022 12c0-5.523-4.477-10-10-10z" />
+                        </svg>
+                        GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/-anurag-kumar/" target="_blank" rel="noopener noreferrer"
+                        class="btn btn-linkedin">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                        </svg>
+                        Let's Connect
+                    </a>
+                    <a href="#" class="btn btn-cv">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                            <circle cx="12" cy="12" r="3"></circle>
+                        </svg>
+                        CV
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About <span class="highlight">Me</span></h2>
+                <div class="about-content">
+                    <p>I am Anurag Kumar, a Computer Science and Engineering student at Lovely Professional University
+                        with a strong interest in Artificial Intelligence, Machine Learning, and software development. I
+                        enjoy solving complex problems and building intelligent systems using technologies like Python,
+                        Java, and machine learning frameworks such as Scikit-learn and TensorFlow.</p>
+                    <p>Through my academic projects and training, I have gained hands-on experience in data analysis,
+                        machine learning model development, and algorithmic problem solving. I have also strengthened my
+                        skills in Data Structures and Algorithms by solving coding challenges on platforms like
+                        LeetCode.</p>
+                    <p>I am always eager to learn new technologies, work on impactful projects, and continuously improve
+                        my technical and problem-solving abilities.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title">My <span class="highlight">Skills</span></h2>
+                <div class="skills-grid">
+                    <!-- Programming -->
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <span class="category-icon">💻</span>
+                            <h3 class="category-title">Programming</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <div class="skill-tag">
+                                <i class="devicon-python-plain skill-icon"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="skill-tag">
+                                <i class="devicon-c-plain skill-icon"></i>
+                                <span>C</span>
+                            </div>
+                            <div class="skill-tag">
+                                <i class="devicon-cplusplus-plain skill-icon"></i>
+                                <span>C++</span>
+                            </div>
+                            <div class="skill-tag">
+                                <i class="devicon-java-plain skill-icon"></i>
+                                <span>Java</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Frameworks / Libraries -->
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <span class="category-icon">🧪</span>
+                            <h3 class="category-title">Frameworks / Libraries</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <div class="skill-tag">
+                                <i class="devicon-scikitlearn-line skill-icon"></i>
+                                <span>Scikit-learn</span>
+                            </div>
+                            <div class="skill-tag">
+                                <i class="devicon-keras-plain skill-icon"></i>
+                                <span>Keras</span>
+                            </div>
+                            <div class="skill-tag">
+                                <i class="devicon-tensorflow-original skill-icon"></i>
+                                <span>TensorFlow</span>
+                            </div>
+                            <div class="skill-tag">
+                                <i class="devicon-pandas-plain skill-icon"></i>
+                                <span>Pandas</span>
+                            </div>
+                            <div class="skill-tag">
+                                <i class="devicon-numpy-plain skill-icon"></i>
+                                <span>NumPy</span>
+                            </div>
+                            <div class="skill-tag">
+                                <i class="devicon-matplotlib-plain skill-icon"></i>
+                                <span>Matplotlib</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tools / Platforms -->
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <span class="category-icon">🛠</span>
+                            <h3 class="category-title">Tools / Platforms</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <div class="skill-tag">
+                                <i class="devicon-git-plain skill-icon"></i>
+                                <span>Git</span>
+                            </div>
+                            <div class="skill-tag">
+                                <i class="devicon-github-original skill-icon"></i>
+                                <span>GitHub</span>
+                            </div>
+                            <div class="skill-tag">
+                                <i class="devicon-maven-plain skill-icon"></i>
+                                <span>Maven</span>
+                            </div>
+                            <div class="skill-tag">
+                                <i class="devicon-docker-plain skill-icon"></i>
+                                <span>Docker</span>
+                            </div>
+                            <div class="skill-tag">
+                                <i class="devicon-jenkins-line skill-icon"></i>
+                                <span>Jenkins</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Core Competencies -->
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <span class="category-icon">🧠</span>
+                            <h3 class="category-title">Core Competencies</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <div class="skill-tag">
+                                <span class="skill-icon">📊</span>
+                                <span>DSA</span>
+                            </div>
+                            <div class="skill-tag">
+                                <span class="skill-icon">📦</span>
+                                <span>OOP</span>
+                            </div>
+                            <div class="skill-tag">
+                                <span class="skill-icon">🤖</span>
+                                <span>Machine<br>Learning</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Web / Backend -->
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <span class="category-icon">🌐</span>
+                            <h3 class="category-title">Web / Backend</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <div class="skill-tag">
+                                <i class="devicon-flask-original skill-icon"></i>
+                                <span>Flask</span>
+                            </div>
+                            <div class="skill-tag">
+                                <i class="devicon-html5-plain skill-icon"></i>
+                                <span>HTML</span>
+                            </div>
+                            <div class="skill-tag">
+                                <i class="devicon-css3-plain skill-icon"></i>
+                                <span>CSS</span>
+                            </div>
+                            <div class="skill-tag">
+                                <i class="devicon-javascript-plain skill-icon"></i>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Soft Skills -->
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <span class="category-icon">🤝</span>
+                            <h3 class="category-title">Soft Skills</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <div class="skill-tag">
+                                <span class="skill-icon">🧩</span>
+                                <span>Problem-<br>Solving</span>
+                            </div>
+                            <div class="skill-tag">
+                                <span class="skill-icon">👥</span>
+                                <span>Team Player</span>
+                            </div>
+                            <div class="skill-tag">
+                                <span class="skill-icon">🌱</span>
+                                <span>Adaptability</span>
+                            </div>
+                            <div class="skill-tag">
+                                <span class="skill-icon">⚡</span>
+                                <span>Quick Learner</span>
+                            </div>
+                            <div class="skill-tag">
+                                <span class="skill-icon">⏱️</span>
+                                <span>Time Mgmt</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Featured <span class="highlight">Projects</span></h2>
+                <div class="projects-grid">
+
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3 class="project-title">Intelligent CPU Scheduler Simulator</h3>
+                            <p class="project-description">A simulator for CPU scheduling algorithms that visualizes
+                                process execution, generates Gantt charts, and calculates metrics like waiting time and
+                                turnaround time.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">Java</span>
+                                <span class="project-tag">Operating Systems</span>
+                                <span class="project-tag">Scheduling Algorithms</span>
+                                <span class="project-tag">Simulation</span>
+                                <span class="project-tag">Gantt Charts</span>
+                            </div>
+                        </div>
+                        <div class="project-footer">
+                            <a href="https://github.com/Anuragkumar17/CSE316" class="project-link" target="_blank"
+                                rel="noopener noreferrer">
+                                <i class="devicon-github-original"></i> View on GitHub
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3 class="project-title">Sellgenius – AI-Powered Sales Analytics Platform</h3>
+                            <p class="project-description">A modern sales analytics platform that helps businesses track
+                                performance, visualize key metrics, and gain AI-driven insights for smarter
+                                decision-making.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">React</span>
+                                <span class="project-tag">Chart.js</span>
+                                <span class="project-tag">AI Chatbot</span>
+                                <span class="project-tag">Analytics</span>
+                                <span class="project-tag">Data Visualization</span>
+                                <span class="project-tag">Responsive Design</span>
+                            </div>
+                        </div>
+                        <div class="project-footer">
+                            <a href="https://github.com/Anuragkumar17/Sellgenius" class="project-link" target="_blank"
+                                rel="noopener noreferrer">
+                                <i class="devicon-github-original"></i> View on GitHub
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3 class="project-title">MedSure – Medical Prescription Classification</h3>
+                            <p class="project-description">Intelligent platform to analyze and classify patients'
+                                medical prescriptions using unsupervised learning techniques to streamline medical data
+                                organization.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">Python</span>
+                                <span class="project-tag">Scikit-learn</span>
+                                <span class="project-tag">Pandas</span>
+                                <span class="project-tag">NumPy</span>
+                                <span class="project-tag">Matplotlib</span>
+                            </div>
+                        </div>
+                        <div class="project-footer">
+                            <a href="https://github.com/Anuragkumar17/MedSure" class="project-link" target="_blank"
+                                rel="noopener noreferrer">
+                                <i class="devicon-github-original"></i> View on GitHub
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3 class="project-title">Sustainable Energy Suggestion System</h3>
+                            <p class="project-description">Intelligent system that classifies and recommends the most
+                                suitable sustainable energy source based on users' pin code and regional parameters
+                                using ML models.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">Python</span>
+                                <span class="project-tag">Scikit-learn</span>
+                                <span class="project-tag">Flask</span>
+                                <span class="project-tag">APIs</span>
+                                <span class="project-tag">Jupyter Notebook</span>
+                            </div>
+                        </div>
+                        <div class="project-footer">
+                            <a href="https://github.com/Anuragkumar17" class="project-link" target="_blank"
+                                rel="noopener noreferrer">
+                                <i class="devicon-github-original"></i> View on GitHub
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="achievements" class="achievements">
+            <div class="container">
+                <h2 class="section-title">My <span class="highlight">Achievements</span></h2>
+                <div class="achievements-grid">
+
+                    <!-- Achievement 1 -->
+                    <div class="achievement-card">
+                        <div class="achievement-header">
+                            <span class="achievement-icon">💡</span>
+                            <h3 class="achievement-title">Problem Solving Excellence</h3>
+                        </div>
+                        <div class="achievement-body">
+                            <ul>
+                                <li>Solved 200+ Data Structures &amp; Algorithms problems</li>
+                                <li>Developed strong analytical and problem-solving skills through consistent practice
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="achievement-footer">
+                            <span class="achievement-date">Ongoing</span>
+                        </div>
+                    </div>
+
+                    <!-- Achievement 2 -->
+                    <div class="achievement-card">
+                        <div class="achievement-header">
+                            <span class="achievement-icon">⏱️</span>
+                            <h3 class="achievement-title">DSA Training Commitment</h3>
+                        </div>
+                        <div class="achievement-body">
+                            <ul>
+                                <li>Completed 120+ hours of Data Structures &amp; Problem Solving training</li>
+                                <li>Strengthened core concepts including arrays, trees, graphs, and dynamic programming
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="achievement-footer">
+                            <span class="achievement-date">March 2026</span>
+                        </div>
+                    </div>
+
+                    <!-- Achievement 3 -->
+                    <div class="achievement-card">
+                        <div class="achievement-header">
+                            <span class="achievement-icon">🎓</span>
+                            <h3 class="achievement-title">NPTEL Elite Certification</h3>
+                        </div>
+                        <div class="achievement-body">
+                            <ul>
+                                <li>Awarded Elite Certification in NPTEL</li>
+                                <li>Ranked among top performers nationwide out of 12,697 participants</li>
+                            </ul>
+                        </div>
+                        <div class="achievement-footer">
+                            <span class="achievement-date">May 2025</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="certificates" class="certificates">
+            <div class="container">
+                <h2 class="section-title">My <span class="highlight">Certificates</span></h2>
+                <div class="certificates-grid">
+
+                    <!-- Cert 1 -->
+                    <div class="certificate-card">
+                        <div class="certificate-image">
+                            <img src="assets/Udemy - Master Gen Ai & Gen Ai tools (31 Aug 2025).jpg"
+                                alt="Generative AI Certificate">
+                        </div>
+                        <div class="certificate-content">
+                            <span class="certificate-issuer">Udemy</span>
+                            <h3 class="certificate-title">Master Generative AI & Generative AI Tools</h3>
+                            <p class="certificate-description">Comprehensive course covering generative AI concepts and
+                                tools.</p>
+                        </div>
+                        <div class="certificate-footer">
+                            <span class="certificate-date">August 2025</span>
+                            <a href="#" class="btn-view"
+                                data-cert="assets/Udemy - Master Gen Ai & Gen Ai tools (31 Aug 2025).jpg">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>
+                                View
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Cert 2 -->
+                    <div class="certificate-card">
+                        <div class="certificate-image">
+                            <img src="assets/Computational Theory Language Principle & Finite Automata Theory.png"
+                                alt="Computational Theory Certificate">
+                        </div>
+                        <div class="certificate-content">
+                            <span class="certificate-issuer">Springboard</span>
+                            <h3 class="certificate-title">Computational Theory: Language Principle & Finite Automata
+                            </h3>
+                            <p class="certificate-description">In-depth study of computational theory, formal languages,
+                                and automata.</p>
+                        </div>
+                        <div class="certificate-footer">
+                            <span class="certificate-date">August 2025</span>
+                            <a href="#" class="btn-view"
+                                data-cert="assets/Computational Theory Language Principle & Finite Automata Theory.png">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>
+                                View
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Cert 3 -->
+                    <div class="certificate-card">
+                        <div class="certificate-image">
+                            <img src="assets/NPTEL Privacy and Security in Online Social Media.png"
+                                alt="Privacy and Security Certificate">
+                        </div>
+                        <div class="certificate-content">
+                            <span class="certificate-issuer">NPTEL</span>
+                            <h3 class="certificate-title">Privacy and Security in Online Social Media</h3>
+                            <p class="certificate-description">Explored privacy challenges and security mechanisms in
+                                social media platforms.</p>
+                        </div>
+                        <div class="certificate-footer">
+                            <span class="certificate-date">May 2025</span>
+                            <a href="#" class="btn-view"
+                                data-cert="assets/NPTEL Privacy and Security in Online Social Media.png">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>
+                                View
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Cert 4 -->
+                    <div class="certificate-card">
+                        <div class="certificate-image">
+                            <img src="assets/C BASIC TO ADVANCE CSE PATHSALA .png" alt="C Programming Certificate">
+                        </div>
+                        <div class="certificate-content">
+                            <span class="certificate-issuer">CSEPathshala</span>
+                            <h3 class="certificate-title">Mastering in C: Basic to Beyond</h3>
+                            <p class="certificate-description">Comprehensive C programming course from fundamentals to
+                                advanced topics.</p>
+                        </div>
+                        <div class="certificate-footer">
+                            <span class="certificate-date">March 2024</span>
+                            <a href="#" class="btn-view" data-cert="assets/C BASIC TO ADVANCE CSE PATHSALA .png">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>
+                                View
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+                <div class="contact-grid">
+                    <!-- Form Card -->
+                    <div class="contact-card">
+                        <form class="contact-form" id="contact-form">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="from_name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="from_email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" placeholder="Your Message"
+                                    required></textarea>
+                            </div>
+                            <button type="submit" id="submit-btn" class="btn btn-black"
+                                style="width: 100%; justify-content: center; font-size: 1.1rem; padding: 12px; height: auto;">
+                                Send Message
+                            </button>
+                            <div id="form-status" class="form-status"></div>
+                        </form>
+                    </div>
+
+                    <!-- Info Card -->
+                    <div class="contact-card info-card">
+                        <div class="contact-info-list">
+                            <div class="info-item">
+                                <a href="https://github.com/Anuragkumar17" target="_blank" rel="noopener noreferrer"
+                                    class="info-link">
+                                    <i class="devicon-github-original"></i>
+                                    <span>github.com/Anuragkumar17</span>
+                                </a>
+                            </div>
+                            <div class="info-item">
+                                <a href="https://www.linkedin.com/in/-anurag-kumar/" target="_blank"
+                                    rel="noopener noreferrer" class="info-link">
+                                    <i class="devicon-linkedin-plain"></i>
+                                    <span>linkedin.com/in/-anurag-kumar</span>
+                                </a>
+                            </div>
+                            <div class="info-item">
+                                <a href="mailto:anuragkumar9624@gmail.com" class="info-link">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path
+                                            d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                        </path>
+                                        <polyline points="22,6 12,13 2,6"></polyline>
+                                    </svg>
+                                    <span>anuragkumar9624@gmail.com</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <p class="footer-copyright">&copy; 2026 Anurag Kumar. All rights reserved.</p>
+            <div class="footer-socials">
+                <a href="https://github.com/Anuragkumar17" target="_blank" rel="noopener noreferrer"
+                    class="footer-social-link" title="GitHub">
+                    <i class="devicon-github-original"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/-anurag-kumar/" target="_blank" rel="noopener noreferrer"
+                    class="footer-social-link" title="LinkedIn">
+                    <i class="devicon-linkedin-plain"></i>
+                </a>
+                <a href="mailto:anuragkumar9624@gmail.com" class="footer-social-link" title="Email">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- CV Modal -->
+    <div class="cv-modal" id="cv-modal">
+        <div class="cv-modal-content">
+            <div class="cv-modal-header">
+                <span class="cv-modal-title">CV</span>
+                <div class="cv-modal-actions">
+                    <a href="assets/AnuragKumar-%20GCV.pdf" download="Anurag_Kumar_CV.pdf" class="btn-download"
+                        aria-label="Download CV">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="7 10 12 15 17 10"></polyline>
+                            <line x1="12" y1="15" x2="12" y2="3"></line>
+                        </svg>
+                    </a>
+                    <button class="btn-close" id="close-cv">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="cv-modal-body">
+                <iframe src="assets/AnuragKumar- GCV.pdf#toolbar=0&navpanes=0&scrollbar=0&view=Fit"
+                    title="Anurag Kumar CV" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Certificate Modal -->
+    <div class="cert-modal" id="cert-modal">
+        <div class="cert-modal-content">
+            <div class="cert-modal-header">
+                <span class="cert-modal-title">Certificate</span>
+                <div class="cert-modal-actions">
+                    <button class="btn-close" id="close-cert">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="cert-modal-body">
+                <img id="modal-cert-img" src="" alt="Certificate View">
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll Up Button -->
+    <button id="scroll-up" class="scroll-up" aria-label="Scroll to top">
+        <svg class="scroll-up-text" viewBox="0 0 100 100">
+            <defs>
+                <path id="circlePath" d="M 50, 50 m -35, 0 a 35,35 0 1,1 70,0 a 35,35 0 1,1 -70,0" />
+            </defs>
+            <text>
+                <textPath xlink:href="#circlePath" textLength="220" lengthAdjust="spacing">
+                    SCROLL UP • SCROLL UP • SCROLL UP • SCROLL UP •
+                </textPath>
+            </text>
+        </svg>
+        <div class="scroll-up-arrow">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="18 15 12 9 6 15"></polyline>
+            </svg>
+        </div>
+    </button>
+
+    <script>
+        // Smooth scroll for nav links (optional but modern)
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Dynamic Spotlight for Anurag Kumar logo
+        const logo = document.querySelector('.logo');
+        logo.addEventListener('mousemove', (e) => {
+            const rect = logo.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+            logo.style.setProperty('--mouse-x', `${x}px`);
+            logo.style.setProperty('--mouse-y', `${y}px`);
+        });
+        logo.addEventListener('mouseleave', () => {
+            logo.style.setProperty('--mouse-x', `-1000px`);
+            logo.style.setProperty('--mouse-y', `-1000px`);
+        });
+
+        // Dynamic Spotlight for Hero H1
+        const heroTitle = document.querySelector('.hero h1');
+        heroTitle.addEventListener('mousemove', (e) => {
+            const rect = heroTitle.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+            heroTitle.style.setProperty('--mouse-x', `${x}px`);
+            heroTitle.style.setProperty('--mouse-y', `${y}px`);
+        });
+        heroTitle.addEventListener('mouseleave', () => {
+            heroTitle.style.setProperty('--mouse-x', `-1000px`);
+            heroTitle.style.setProperty('--mouse-y', `-1000px`);
+        });
+
+        // Dynamic Spotlight for Section Titles
+        document.querySelectorAll('.section-title').forEach(title => {
+            title.addEventListener('mousemove', (e) => {
+                const rect = title.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+                title.style.setProperty('--mouse-x', `${x}px`);
+                title.style.setProperty('--mouse-y', `${y}px`);
+            });
+            title.addEventListener('mouseleave', () => {
+                title.style.setProperty('--mouse-x', `-1000px`);
+                title.style.setProperty('--mouse-y', `-1000px`);
+            });
+        });
+
+        // Mobile Menu Toggle
+        const burgerMenu = document.getElementById('burger-menu');
+        const menuContainer = document.getElementById('menu-container');
+
+        burgerMenu.addEventListener('click', () => {
+            burgerMenu.classList.toggle('active');
+            menuContainer.classList.toggle('active');
+        });
+
+        // Close menu when clicking a link
+        document.querySelectorAll('.menu-container a').forEach(link => {
+            link.addEventListener('click', () => {
+                burgerMenu.classList.remove('active');
+                menuContainer.classList.remove('active');
+            });
+        });
+
+        // CV Modal Logic
+        const cvBtn = document.querySelector('.btn-cv');
+        const cvModal = document.getElementById('cv-modal');
+        const closeCvBtn = document.getElementById('close-cv');
+
+        cvBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            cvModal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        });
+
+        closeCvBtn.addEventListener('click', () => {
+            cvModal.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        });
+
+        cvModal.addEventListener('click', (e) => {
+            if (e.target === cvModal) {
+                cvModal.classList.remove('active');
+                document.body.style.overflow = 'auto';
+            }
+        });
+
+        // Certificate Modal Logic
+        const certViewBtns = document.querySelectorAll('.btn-view');
+        const certModal = document.getElementById('cert-modal');
+        const modalCertImg = document.getElementById('modal-cert-img');
+        const closeCertBtn = document.getElementById('close-cert');
+
+        certViewBtns.forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                e.preventDefault();
+                const certSrc = btn.getAttribute('data-cert');
+                modalCertImg.src = certSrc;
+                certModal.classList.add('active');
+                document.body.style.overflow = 'hidden';
+            });
+        });
+
+        // Scroll Up Button Logic
+        const scrollUpBtn = document.getElementById('scroll-up');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                scrollUpBtn.classList.add('active');
+            } else {
+                scrollUpBtn.classList.remove('active');
+            }
+        });
+
+        scrollUpBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        closeCertBtn.addEventListener('click', () => {
+            certModal.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        });
+
+        certModal.addEventListener('click', (e) => {
+            if (e.target === certModal) {
+                certModal.classList.remove('active');
+                document.body.style.overflow = 'auto';
+            }
+        });
+
+        // ScrollSpy for Contact Button
+        const contactSection = document.getElementById('contact');
+        const contactBtn = document.querySelector('.contact-btn');
+
+        const observerOptions = {
+            threshold: 0.5
+        };
+
+        const contactObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    contactBtn.classList.add('active');
+                } else {
+                    contactBtn.classList.remove('active');
+                }
+            });
+        }, observerOptions);
+
+        if (contactSection && contactBtn) {
+            contactObserver.observe(contactSection);
+        }
+
+        // EmailJS Form Submission
+        const contactForm = document.getElementById('contact-form');
+        const submitBtn = document.getElementById('submit-btn');
+        const formStatus = document.getElementById('form-status');
+
+        if (contactForm) {
+            contactForm.addEventListener('submit', function (e) {
+                e.preventDefault();
+
+                // Show sending state
+                submitBtn.disabled = true;
+                submitBtn.innerText = 'Sending...';
+                formStatus.innerText = '';
+                formStatus.className = 'form-status';
+
+                // Send form using EmailJS
+                // Service ID: service_w5jjp0k, Template ID: template_l4ht3sg
+                emailjs.sendForm('service_w5jjp0k', 'template_l4ht3sg', this)
+                    .then(() => {
+                        // Success
+                        submitBtn.disabled = false;
+                        submitBtn.innerText = 'Send Message';
+                        formStatus.innerText = 'Message sent successfully!';
+                        formStatus.classList.add('success');
+                        contactForm.reset();
+
+                        // Clear status after 5 seconds
+                        setTimeout(() => {
+                            formStatus.innerText = '';
+                            formStatus.className = 'form-status';
+                        }, 5000);
+                    }, (error) => {
+                        // Error
+                        submitBtn.disabled = false;
+                        submitBtn.innerText = 'Send Message';
+                        formStatus.innerText = 'Failed to send message. Please try again.';
+                        formStatus.classList.add('error');
+                        console.error('EmailJS Error:', error);
+                    });
+            });
+        }
+
+        closeCertBtn.addEventListener('click', () => {
+            certModal.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        });
+
+        certModal.addEventListener('click', (e) => {
+            if (e.target === certModal) {
+                certModal.classList.remove('active');
+                document.body.style.overflow = 'auto';
+            }
+        });
+    </script>
+</body>
+
+</html>
